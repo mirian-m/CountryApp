@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		84634F9128A4D8660050DB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634F9028A4D8660050DB63 /* AppDelegate.swift */; };
 		84634F9328A4D8660050DB63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634F9228A4D8660050DB63 /* SceneDelegate.swift */; };
-		84634F9528A4D8660050DB63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634F9428A4D8660050DB63 /* ViewController.swift */; };
+		84634F9528A4D8660050DB63 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634F9428A4D8660050DB63 /* CountriesViewController.swift */; };
 		84634F9828A4D8660050DB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84634F9628A4D8660050DB63 /* Main.storyboard */; };
 		84634F9A28A4D8720050DB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84634F9928A4D8720050DB63 /* Assets.xcassets */; };
 		84634F9D28A4D8720050DB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84634F9B28A4D8720050DB63 /* LaunchScreen.storyboard */; };
+		84634FA728A4D8E30050DB63 /* APiColler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FA628A4D8E30050DB63 /* APiColler.swift */; };
+		84634FAC28A4D9CC0050DB63 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FAB28A4D9CC0050DB63 /* CountryModel.swift */; };
+		84634FB028A4E0DB0050DB63 /* CountryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FAF28A4E0DB0050DB63 /* CountryNameTableViewCell.swift */; };
+		84634FB528A4EA3C0050DB63 /* CountryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */; };
+		84634FC628A4F1F80050DB63 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FC528A4F1F80050DB63 /* Extension.swift */; };
+		84634FCA28A5586B0050DB63 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84634FC928A5586B0050DB63 /* SVGKit */; };
+		84634FCC28A5586B0050DB63 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84634FCB28A5586B0050DB63 /* SVGKitSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84634F8D28A4D8660050DB63 /* MirianMaglakelidze#21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MirianMaglakelidze#21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84634F9028A4D8660050DB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84634F9228A4D8660050DB63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84634F9428A4D8660050DB63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84634F9428A4D8660050DB63 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		84634F9728A4D8660050DB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84634F9928A4D8720050DB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84634F9C28A4D8720050DB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84634F9E28A4D8720050DB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84634FA628A4D8E30050DB63 /* APiColler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiColler.swift; sourceTree = "<group>"; };
+		84634FAB28A4D9CC0050DB63 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		84634FAF28A4E0DB0050DB63 /* CountryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryNameTableViewCell.swift; sourceTree = "<group>"; };
+		84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewController.swift; sourceTree = "<group>"; };
+		84634FC528A4F1F80050DB63 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84634FCC28A5586B0050DB63 /* SVGKitSwift in Frameworks */,
+				84634FCA28A5586B0050DB63 /* SVGKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,68 @@
 		84634F8F28A4D8660050DB63 /* MirianMaglakelidze#21 */ = {
 			isa = PBXGroup;
 			children = (
+				84634FC428A4F1E50050DB63 /* Extensions */,
+				84634FB228A4E9E10050DB63 /* Controllers */,
+				84634FAE28A4E0A30050DB63 /* Cell */,
+				84634FAA28A4D9B50050DB63 /* Models */,
+				84634FA528A4D8970050DB63 /* Manager */,
 				84634F9028A4D8660050DB63 /* AppDelegate.swift */,
 				84634F9228A4D8660050DB63 /* SceneDelegate.swift */,
-				84634F9428A4D8660050DB63 /* ViewController.swift */,
 				84634F9628A4D8660050DB63 /* Main.storyboard */,
 				84634F9928A4D8720050DB63 /* Assets.xcassets */,
 				84634F9B28A4D8720050DB63 /* LaunchScreen.storyboard */,
 				84634F9E28A4D8720050DB63 /* Info.plist */,
 			);
 			path = "MirianMaglakelidze#21";
+			sourceTree = "<group>";
+		};
+		84634FA528A4D8970050DB63 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84634FA628A4D8E30050DB63 /* APiColler.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		84634FAA28A4D9B50050DB63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84634FAB28A4D9CC0050DB63 /* CountryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84634FAE28A4E0A30050DB63 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84634FBF28A4EF270050DB63 /* CountryNameCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		84634FB228A4E9E10050DB63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84634F9428A4D8660050DB63 /* CountriesViewController.swift */,
+				84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84634FBF28A4EF270050DB63 /* CountryNameCell */ = {
+			isa = PBXGroup;
+			children = (
+				84634FAF28A4E0DB0050DB63 /* CountryNameTableViewCell.swift */,
+			);
+			path = CountryNameCell;
+			sourceTree = "<group>";
+		};
+		84634FC428A4F1E50050DB63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84634FC528A4F1F80050DB63 /* Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,10 @@
 			dependencies = (
 			);
 			name = "MirianMaglakelidze#21";
+			packageProductDependencies = (
+				84634FC928A5586B0050DB63 /* SVGKit */,
+				84634FCB28A5586B0050DB63 /* SVGKitSwift */,
+			);
 			productName = "MirianMaglakelidze#21";
 			productReference = 84634F8D28A4D8660050DB63 /* MirianMaglakelidze#21.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 84634F8428A4D8660050DB63;
+			packageReferences = (
+				84634FC828A5586B0050DB63 /* XCRemoteSwiftPackageReference "SVGKit" */,
+			);
 			productRefGroup = 84634F8E28A4D8660050DB63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84634F9528A4D8660050DB63 /* ViewController.swift in Sources */,
+				84634F9528A4D8660050DB63 /* CountriesViewController.swift in Sources */,
+				84634FA728A4D8E30050DB63 /* APiColler.swift in Sources */,
 				84634F9128A4D8660050DB63 /* AppDelegate.swift in Sources */,
+				84634FB028A4E0DB0050DB63 /* CountryNameTableViewCell.swift in Sources */,
 				84634F9328A4D8660050DB63 /* SceneDelegate.swift in Sources */,
+				84634FB528A4EA3C0050DB63 /* CountryDetailsViewController.swift in Sources */,
+				84634FAC28A4D9CC0050DB63 /* CountryModel.swift in Sources */,
+				84634FC628A4F1F80050DB63 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +418,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84634FC828A5586B0050DB63 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84634FC928A5586B0050DB63 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84634FC828A5586B0050DB63 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		84634FCB28A5586B0050DB63 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84634FC828A5586B0050DB63 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84634F8528A4D8660050DB63 /* Project object */;
 }
