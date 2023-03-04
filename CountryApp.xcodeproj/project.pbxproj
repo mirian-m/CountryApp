@@ -13,17 +13,20 @@
 		84634F9828A4D8660050DB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84634F9628A4D8660050DB63 /* Main.storyboard */; };
 		84634F9A28A4D8720050DB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84634F9928A4D8720050DB63 /* Assets.xcassets */; };
 		84634F9D28A4D8720050DB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84634F9B28A4D8720050DB63 /* LaunchScreen.storyboard */; };
-		84634FA728A4D8E30050DB63 /* APiColler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FA628A4D8E30050DB63 /* APiColler.swift */; };
+		84634FA728A4D8E30050DB63 /* CountryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FA628A4D8E30050DB63 /* CountryService.swift */; };
 		84634FAC28A4D9CC0050DB63 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FAB28A4D9CC0050DB63 /* CountryModel.swift */; };
 		84634FB028A4E0DB0050DB63 /* CountryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FAF28A4E0DB0050DB63 /* CountryNameTableViewCell.swift */; };
 		84634FB528A4EA3C0050DB63 /* CountryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */; };
 		84634FC628A4F1F80050DB63 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84634FC528A4F1F80050DB63 /* Extension.swift */; };
 		84634FCA28A5586B0050DB63 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84634FC928A5586B0050DB63 /* SVGKit */; };
 		84634FCC28A5586B0050DB63 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84634FCB28A5586B0050DB63 /* SVGKitSwift */; };
+		8478D2ED29B0D8F100F67E1B /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D2EC29B0D8F100F67E1B /* CountryViewModel.swift */; };
+		8478D2FA29B1EF0A00F67E1B /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D2F929B1EF0800F67E1B /* ObservableObject.swift */; };
+		8478D30629B36AF000F67E1B /* CountryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D30529B36AF000F67E1B /* CountryDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84634F8D28A4D8660050DB63 /* MirianMaglakelidze#21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MirianMaglakelidze#21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84634F8D28A4D8660050DB63 /* CountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84634F9028A4D8660050DB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84634F9228A4D8660050DB63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84634F9428A4D8660050DB63 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
@@ -31,11 +34,14 @@
 		84634F9928A4D8720050DB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84634F9C28A4D8720050DB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84634F9E28A4D8720050DB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84634FA628A4D8E30050DB63 /* APiColler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiColler.swift; sourceTree = "<group>"; };
+		84634FA628A4D8E30050DB63 /* CountryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryService.swift; sourceTree = "<group>"; };
 		84634FAB28A4D9CC0050DB63 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		84634FAF28A4E0DB0050DB63 /* CountryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryNameTableViewCell.swift; sourceTree = "<group>"; };
 		84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewController.swift; sourceTree = "<group>"; };
 		84634FC528A4F1F80050DB63 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8478D2EC29B0D8F100F67E1B /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		8478D2F929B1EF0800F67E1B /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		8478D30529B36AF000F67E1B /* CountryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,7 @@
 		84634F8428A4D8660050DB63 = {
 			isa = PBXGroup;
 			children = (
-				84634F8F28A4D8660050DB63 /* MirianMaglakelidze#21 */,
+				84634F8F28A4D8660050DB63 /* CountryApp */,
 				84634F8E28A4D8660050DB63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,19 +68,21 @@
 		84634F8E28A4D8660050DB63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84634F8D28A4D8660050DB63 /* MirianMaglakelidze#21.app */,
+				84634F8D28A4D8660050DB63 /* CountryApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84634F8F28A4D8660050DB63 /* MirianMaglakelidze#21 */ = {
+		84634F8F28A4D8660050DB63 /* CountryApp */ = {
 			isa = PBXGroup;
 			children = (
-				84634FC428A4F1E50050DB63 /* Extensions */,
-				84634FB228A4E9E10050DB63 /* Controllers */,
-				84634FAE28A4E0A30050DB63 /* Cell */,
+				8478D2F929B1EF0800F67E1B /* ObservableObject.swift */,
 				84634FAA28A4D9B50050DB63 /* Models */,
-				84634FA528A4D8970050DB63 /* Manager */,
+				84634FB228A4E9E10050DB63 /* Views */,
+				8478D2EB29B0D8CA00F67E1B /* ViewModels */,
+				84634FAE28A4E0A30050DB63 /* Cell */,
+				84634FA528A4D8970050DB63 /* Services */,
+				84634FC428A4F1E50050DB63 /* Extensions */,
 				84634F9028A4D8660050DB63 /* AppDelegate.swift */,
 				84634F9228A4D8660050DB63 /* SceneDelegate.swift */,
 				84634F9628A4D8660050DB63 /* Main.storyboard */,
@@ -82,15 +90,15 @@
 				84634F9B28A4D8720050DB63 /* LaunchScreen.storyboard */,
 				84634F9E28A4D8720050DB63 /* Info.plist */,
 			);
-			path = "MirianMaglakelidze#21";
+			path = CountryApp;
 			sourceTree = "<group>";
 		};
-		84634FA528A4D8970050DB63 /* Manager */ = {
+		84634FA528A4D8970050DB63 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				84634FA628A4D8E30050DB63 /* APiColler.swift */,
+				84634FA628A4D8E30050DB63 /* CountryService.swift */,
 			);
-			path = Manager;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		84634FAA28A4D9B50050DB63 /* Models */ = {
@@ -109,13 +117,13 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		84634FB228A4E9E10050DB63 /* Controllers */ = {
+		84634FB228A4E9E10050DB63 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84634F9428A4D8660050DB63 /* CountriesViewController.swift */,
-				84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */,
+				8478D2E929B0D7C700F67E1B /* Country */,
+				8478D30129B36A8C00F67E1B /* Details */,
 			);
-			path = Controllers;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		84634FBF28A4EF270050DB63 /* CountryNameCell */ = {
@@ -134,12 +142,37 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8478D2E929B0D7C700F67E1B /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				84634F9428A4D8660050DB63 /* CountriesViewController.swift */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		8478D2EB29B0D8CA00F67E1B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8478D2EC29B0D8F100F67E1B /* CountryViewModel.swift */,
+				8478D30529B36AF000F67E1B /* CountryDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8478D30129B36A8C00F67E1B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				84634FB428A4EA3C0050DB63 /* CountryDetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84634F8C28A4D8660050DB63 /* MirianMaglakelidze#21 */ = {
+		84634F8C28A4D8660050DB63 /* CountryApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84634FA128A4D8720050DB63 /* Build configuration list for PBXNativeTarget "MirianMaglakelidze#21" */;
+			buildConfigurationList = 84634FA128A4D8720050DB63 /* Build configuration list for PBXNativeTarget "CountryApp" */;
 			buildPhases = (
 				84634F8928A4D8660050DB63 /* Sources */,
 				84634F8A28A4D8660050DB63 /* Frameworks */,
@@ -149,13 +182,13 @@
 			);
 			dependencies = (
 			);
-			name = "MirianMaglakelidze#21";
+			name = CountryApp;
 			packageProductDependencies = (
 				84634FC928A5586B0050DB63 /* SVGKit */,
 				84634FCB28A5586B0050DB63 /* SVGKitSwift */,
 			);
 			productName = "MirianMaglakelidze#21";
-			productReference = 84634F8D28A4D8660050DB63 /* MirianMaglakelidze#21.app */;
+			productReference = 84634F8D28A4D8660050DB63 /* CountryApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84634F8828A4D8660050DB63 /* Build configuration list for PBXProject "MirianMaglakelidze#21" */;
+			buildConfigurationList = 84634F8828A4D8660050DB63 /* Build configuration list for PBXProject "CountryApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84634F8C28A4D8660050DB63 /* MirianMaglakelidze#21 */,
+				84634F8C28A4D8660050DB63 /* CountryApp */,
 			);
 		};
 /* End PBXProject section */
@@ -212,10 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84634F9528A4D8660050DB63 /* CountriesViewController.swift in Sources */,
-				84634FA728A4D8E30050DB63 /* APiColler.swift in Sources */,
+				84634FA728A4D8E30050DB63 /* CountryService.swift in Sources */,
 				84634F9128A4D8660050DB63 /* AppDelegate.swift in Sources */,
+				8478D2ED29B0D8F100F67E1B /* CountryViewModel.swift in Sources */,
 				84634FB028A4E0DB0050DB63 /* CountryNameTableViewCell.swift in Sources */,
+				8478D2FA29B1EF0A00F67E1B /* ObservableObject.swift in Sources */,
 				84634F9328A4D8660050DB63 /* SceneDelegate.swift in Sources */,
+				8478D30629B36AF000F67E1B /* CountryDetailsViewModel.swift in Sources */,
 				84634FB528A4EA3C0050DB63 /* CountryDetailsViewController.swift in Sources */,
 				84634FAC28A4D9CC0050DB63 /* CountryModel.swift in Sources */,
 				84634FC628A4F1F80050DB63 /* Extension.swift in Sources */,
@@ -366,12 +402,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MirianMaglakelidze#21/Info.plist";
+				INFOPLIST_FILE = CountryApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mirian-maglakelidze.MirianMaglakelidze-21";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mirian-maglakelidze.CountryApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,12 +420,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MirianMaglakelidze#21/Info.plist";
+				INFOPLIST_FILE = CountryApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mirian-maglakelidze.MirianMaglakelidze-21";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mirian-maglakelidze.CountryApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84634F8828A4D8660050DB63 /* Build configuration list for PBXProject "MirianMaglakelidze#21" */ = {
+		84634F8828A4D8660050DB63 /* Build configuration list for PBXProject "CountryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84634F9F28A4D8720050DB63 /* Debug */,
@@ -408,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84634FA128A4D8720050DB63 /* Build configuration list for PBXNativeTarget "MirianMaglakelidze#21" */ = {
+		84634FA128A4D8720050DB63 /* Build configuration list for PBXNativeTarget "CountryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84634FA228A4D8720050DB63 /* Debug */,

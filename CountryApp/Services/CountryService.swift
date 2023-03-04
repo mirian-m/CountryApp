@@ -7,15 +7,16 @@
 import UIKit
 import SVGKit
 
-struct Constants {
-    static let countryUrlStr = "https://restcountries.com/v2/all"
+enum ApiUrl {
+    static let baseUrl = "https://restcountries.com/v2/all"
 }
 
-struct APIColler {
-    static let shared = APIColler()
+struct CountryService {
+    
+    static let shared = CountryService()
     
     func fetchCountries(complition: @escaping (Result<[Country], Error>) -> Void) {
-        guard let url = URL(string: Constants.countryUrlStr) else { return }
+        guard let url = URL(string: ApiUrl.baseUrl) else { return }
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data, error == nil else { return }
             do {

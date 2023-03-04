@@ -1,7 +1,7 @@
 
 import UIKit
 
-class CountryDetailsViewController: UIViewController {
+final class CountryDetailsViewController: UIViewController {
 
     @IBOutlet weak var flagImageView: UIImageView! {
         didSet {
@@ -11,7 +11,7 @@ class CountryDetailsViewController: UIViewController {
     @IBOutlet weak var capitalLb: UILabel!
     @IBOutlet weak var populationLb: UILabel!
     
-    var country: Country!
+    var viewModel: CountryDetailsViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,17 +19,18 @@ class CountryDetailsViewController: UIViewController {
         updateView()
     }
     
-    func setUpNavigationBar() {
+    private func setUpNavigationBar() {
         navigationController?.navigationBar.isHidden = false
         navigationController?.navigationBar.barStyle = .black
     }
     
-    func updateView() {
-        title = country.name
-        capitalLb.text = country.capital
-        populationLb.text = String(describing: country.population!)
-        print(country.flag)
-        flagImageView.getImageFromWeb(by: country.flag)
+    private func updateView() {
+        if viewModel != nil {
+            title = viewModel!.countryName
+            populationLb.text = String(describing: viewModel!.population)
+            capitalLb.text = viewModel!.capital
+            flagImageView.getImageFromWeb(by: viewModel!.flag)
+        }
     }
 }
 

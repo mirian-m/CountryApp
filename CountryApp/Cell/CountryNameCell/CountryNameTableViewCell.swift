@@ -30,7 +30,7 @@ class CountryNameTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate(countryNameLbConstraints)
     }
 
-    func configure(with model: Country) {
-        countryNameLb.text = model.name
+    func configure(with countryName: CountryTableViewCellViewModel?) {
+        countryNameLb.text = countryName?.countryName ?? ""
     }
 }

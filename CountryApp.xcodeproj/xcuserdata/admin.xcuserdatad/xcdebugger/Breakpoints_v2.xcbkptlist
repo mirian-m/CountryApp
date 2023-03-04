@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4509BFE3-1FE7-42B5-BCBA-466209F33E5D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F940C7A2-7B3E-4C9C-92A9-B516259AC64E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MirianMaglakelidze#21/ViewModel/CountryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getCountryData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F940C7A2-7B3E-4C9C-92A9-B516259AC64E - 328bd834c65dc71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;MirianMaglakelidze_21.Country&gt;, Swift.Error&gt;) -&gt; () in MirianMaglakelidze_21.CountryViewModel.getCountryData() -&gt; ()"
+                  moduleName = "MirianMaglakelidze#21"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Cources/TBCAcademy/IOS/MirianMaglakelidze%2321/MirianMaglakelidze%2321/ViewModel/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "F940C7A2-7B3E-4C9C-92A9-B516259AC64E - 328bd834c65dc71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;MirianMaglakelidze_21.Country&gt;, Swift.Error&gt;) -&gt; () in MirianMaglakelidze_21.CountryViewModel.getCountryData() -&gt; ()"
+                  moduleName = "MirianMaglakelidze#21"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/Cources/TBCAcademy/IOS/MirianMaglakelidze%2321/MirianMaglakelidze%2321/ViewModel/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
